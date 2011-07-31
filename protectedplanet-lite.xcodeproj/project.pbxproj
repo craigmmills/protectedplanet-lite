@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FFC117113E5A0BA00EBF4D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFC117013E5A0BA00EBF4D1 /* UIKit.framework */; };
+		4FFC117313E5A0BA00EBF4D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFC117213E5A0BA00EBF4D1 /* Foundation.framework */; };
+		4FFC117513E5A0BA00EBF4D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFC117413E5A0BA00EBF4D1 /* CoreGraphics.framework */; };
+		4FFC117B13E5A0BA00EBF4D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FFC117913E5A0BA00EBF4D1 /* InfoPlist.strings */; };
+		4FFC117E13E5A0BA00EBF4D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC117D13E5A0BA00EBF4D1 /* main.m */; };
+		4FFC118113E5A0BA00EBF4D1 /* protectedplanet_liteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC118013E5A0BA00EBF4D1 /* protectedplanet_liteAppDelegate.m */; };
+		4FFC118413E5A0BA00EBF4D1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FFC118213E5A0BA00EBF4D1 /* MainWindow.xib */; };
+		4FFC118713E5A0BB00EBF4D1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC118613E5A0BB00EBF4D1 /* RootViewController.m */; };
+		4FFC118A13E5A0BB00EBF4D1 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FFC118813E5A0BB00EBF4D1 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FFC116C13E5A0BA00EBF4D1 /* protectedplanet-lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "protectedplanet-lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFC117013E5A0BA00EBF4D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4FFC117213E5A0BA00EBF4D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4FFC117413E5A0BA00EBF4D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4FFC117813E5A0BA00EBF4D1 /* protectedplanet-lite-Info.plist */ = {isa = PBXFileReference; path = "protectedplanet-lite-Info.plist"; sourceTree = "<group>"; };
+		4FFC117A13E5A0BA00EBF4D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FFC117C13E5A0BA00EBF4D1 /* protectedplanet-lite-Prefix.pch */ = {isa = PBXFileReference; path = "protectedplanet-lite-Prefix.pch"; sourceTree = "<group>"; };
+		4FFC117D13E5A0BA00EBF4D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FFC117F13E5A0BA00EBF4D1 /* protectedplanet_liteAppDelegate.h */ = {isa = PBXFileReference; path = protectedplanet_liteAppDelegate.h; sourceTree = "<group>"; };
+		4FFC118013E5A0BA00EBF4D1 /* protectedplanet_liteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = protectedplanet_liteAppDelegate.m; sourceTree = "<group>"; };
+		4FFC118313E5A0BA00EBF4D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4FFC118513E5A0BB00EBF4D1 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		4FFC118613E5A0BB00EBF4D1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4FFC118913E5A0BB00EBF4D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FFC116913E5A0BA00EBF4D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFC117113E5A0BA00EBF4D1 /* UIKit.framework in Frameworks */,
+				4FFC117313E5A0BA00EBF4D1 /* Foundation.framework in Frameworks */,
+				4FFC117513E5A0BA00EBF4D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FFC116113E5A0BA00EBF4D1 = {
+			isa = PBXGroup;
+			children = (
+				4FFC117613E5A0BA00EBF4D1 /* protectedplanet-lite */,
+				4FFC116F13E5A0BA00EBF4D1 /* Frameworks */,
+				4FFC116D13E5A0BA00EBF4D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FFC116D13E5A0BA00EBF4D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC116C13E5A0BA00EBF4D1 /* protectedplanet-lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FFC116F13E5A0BA00EBF4D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC117013E5A0BA00EBF4D1 /* UIKit.framework */,
+				4FFC117213E5A0BA00EBF4D1 /* Foundation.framework */,
+				4FFC117413E5A0BA00EBF4D1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FFC117613E5A0BA00EBF4D1 /* protectedplanet-lite */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC117F13E5A0BA00EBF4D1 /* protectedplanet_liteAppDelegate.h */,
+				4FFC118013E5A0BA00EBF4D1 /* protectedplanet_liteAppDelegate.m */,
+				4FFC118213E5A0BA00EBF4D1 /* MainWindow.xib */,
+				4FFC118513E5A0BB00EBF4D1 /* RootViewController.h */,
+				4FFC118613E5A0BB00EBF4D1 /* RootViewController.m */,
+				4FFC118813E5A0BB00EBF4D1 /* RootViewController.xib */,
+				4FFC117713E5A0BA00EBF4D1 /* Supporting Files */,
+			);
+			path = "protectedplanet-lite";
+			sourceTree = "<group>";
+		};
+		4FFC117713E5A0BA00EBF4D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC117813E5A0BA00EBF4D1 /* protectedplanet-lite-Info.plist */,
+				4FFC117913E5A0BA00EBF4D1 /* InfoPlist.strings */,
+				4FFC117C13E5A0BA00EBF4D1 /* protectedplanet-lite-Prefix.pch */,
+				4FFC117D13E5A0BA00EBF4D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FFC116B13E5A0BA00EBF4D1 /* protectedplanet-lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFC118D13E5A0BB00EBF4D1 /* Build configuration list for PBXNativeTarget "protectedplanet-lite" */;
+			buildPhases = (
+				4FFC116813E5A0BA00EBF4D1 /* Sources */,
+				4FFC116913E5A0BA00EBF4D1 /* Frameworks */,
+				4FFC116A13E5A0BA00EBF4D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "protectedplanet-lite";
+			productName = "protectedplanet-lite";
+			productReference = 4FFC116C13E5A0BA00EBF4D1 /* protectedplanet-lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FFC116313E5A0BA00EBF4D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "UNEP-WCMC";
+			};
+			buildConfigurationList = 4FFC116613E5A0BA00EBF4D1 /* Build configuration list for PBXProject "protectedplanet-lite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4FFC116113E5A0BA00EBF4D1;
+			productRefGroup = 4FFC116D13E5A0BA00EBF4D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FFC116B13E5A0BA00EBF4D1 /* protectedplanet-lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FFC116A13E5A0BA00EBF4D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFC117B13E5A0BA00EBF4D1 /* InfoPlist.strings in Resources */,
+				4FFC118413E5A0BA00EBF4D1 /* MainWindow.xib in Resources */,
+				4FFC118A13E5A0BB00EBF4D1 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FFC116813E5A0BA00EBF4D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFC117E13E5A0BA00EBF4D1 /* main.m in Sources */,
+				4FFC118113E5A0BA00EBF4D1 /* protectedplanet_liteAppDelegate.m in Sources */,
+				4FFC118713E5A0BB00EBF4D1 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FFC117913E5A0BA00EBF4D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FFC117A13E5A0BA00EBF4D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4FFC118213E5A0BA00EBF4D1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FFC118313E5A0BA00EBF4D1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4FFC118813E5A0BB00EBF4D1 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FFC118913E5A0BB00EBF4D1 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FFC118B13E5A0BB00EBF4D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4FFC118C13E5A0BB00EBF4D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4FFC118E13E5A0BB00EBF4D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "protectedplanet-lite/protectedplanet-lite-Prefix.pch";
+				INFOPLIST_FILE = "protectedplanet-lite/protectedplanet-lite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4FFC118F13E5A0BB00EBF4D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "protectedplanet-lite/protectedplanet-lite-Prefix.pch";
+				INFOPLIST_FILE = "protectedplanet-lite/protectedplanet-lite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FFC116613E5A0BA00EBF4D1 /* Build configuration list for PBXProject "protectedplanet-lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFC118B13E5A0BB00EBF4D1 /* Debug */,
+				4FFC118C13E5A0BB00EBF4D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFC118D13E5A0BB00EBF4D1 /* Build configuration list for PBXNativeTarget "protectedplanet-lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFC118E13E5A0BB00EBF4D1 /* Debug */,
+				4FFC118F13E5A0BB00EBF4D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FFC116313E5A0BA00EBF4D1 /* Project object */;
+}
