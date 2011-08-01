@@ -7,8 +7,16 @@
 //
 
 #import "RootViewController.h"
+#import "protectedareaData.h"
+
 
 @implementation RootViewController
+
+//this is where we pass the pa array to the view controller for filling in the cells
+- (void)setPas:(NSMutableArray *)pas
+{
+    _pas = pas;
+}
 
 - (void)viewDidLoad
 {
@@ -35,13 +43,13 @@
 	[super viewDidDisappear:animated];
 }
 
-/*
+
  // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	// Return YES for supported orientations.
-	return (interfaceOrientation == UIInterfaceOrientationPortrait);
+	return YES;
 }
- */
+
 
 // Customize the number of sections in the table view.
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -51,7 +59,17 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    
+    //use the pa array length to calc the row number
+    if(_pas != nil)
+    {
+        return _pas.count;
+    }
+    else
+    {
+        return 0;
+    }
+
 }
 
 // Customize the appearance of table view cells.
@@ -64,7 +82,16 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
 
-    // Configure the cell.
+    // Configure the cell with pa objects.
+    if (_pas != nil)
+    {
+        protectedareaData *pa = [_pas objectAtIndex:indexPath.row];
+        cell.textLabel.text = pa.name;
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        cell.imageView.image = pa.thumbImage;
+        
+        
+    }
     return cell;
 }
 

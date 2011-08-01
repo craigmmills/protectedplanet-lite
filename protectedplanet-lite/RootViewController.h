@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface RootViewController : UITableViewController {
-
+    NSMutableArray *_pas;
 }
 
+
+-(void) setPas: (NSMutableArray*) pas;
 
 @end
